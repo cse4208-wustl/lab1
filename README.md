@@ -41,9 +41,9 @@ Some parts of this lab are intentionally somewhat open-ended. When details are u
 
    The provided `Makefile` is already included. If appropriate, you may want to rename files and update the `Makefile` accordingly, for example so that `lab0.cpp` becomes `lab1.cpp`.
 
-1. Revise your `Deck` type from the previous lab assignment so that instead of being an abstract base class, it becomes a class template parameterized by rank and suit types and derived by public inheritance from a `CardSet` class template.
+1. Define a new `CardSet` class template in its own `.h` file, with its template member definitions in a corresponding source file, and then revise your `Deck` type from the previous lab assignment so that instead of being an abstract base class, it becomes a class template parameterized by rank and suit types and derived by public inheritance from that new `CardSet` class template.
 
-   Put the `CardSet` declarations and definitions in separate header and source files.
+   `CardSet` is a new abstraction for this lab. You should declare the new class template in its own header file and place its template member definitions in a corresponding source file.
 
    In `CardSet`:
 
