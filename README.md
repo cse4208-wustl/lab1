@@ -62,7 +62,7 @@ Some parts of this lab are intentionally somewhat open-ended. When details are u
    - do this for both `Deck` and `CardSet`
    - make sure the `Makefile` provides `-DTEMPLATE_HEADERS_INCLUDE_SOURCE`
 
-   Update `PinochleDeck` and `HoldEmDeck` so they derive from the appropriately parameterized `Deck` template, and remove their now-duplicated `vector` and `print` members.
+   Update `PinochleDeck` and `HoldEmDeck` so they derive from the appropriately parameterized `Deck` template, remove their now-duplicated `vector` and `print` members, and update all existing calls to the CardSet's print function by passing the second parameter which is now required by that function.
 
    At this point, your program should still compile, run, and produce the same output as your previous lab solution.
 
