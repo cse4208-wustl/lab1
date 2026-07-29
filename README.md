@@ -71,7 +71,7 @@ Some parts of this lab are intentionally somewhat open-ended. When details are u
    It should:
 
    - declare a device callable object such as `std::random_device`
-   - declare a random number generator such as `std::mt19937`, initialized from that device
+   - declare a random number generator such as `std::mt19937`, and seed it with the output from the device callable object
    - call `std::shuffle` from `<algorithm>` using the deck's underlying vector iterators and the generator you initialized
 
    If the compiler has trouble deducing iterator types, you may need to explicitly scope the vector member variable, for example `CardSet<R, S>::card_vec.begin()`.
