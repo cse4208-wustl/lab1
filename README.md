@@ -43,8 +43,6 @@ Some parts of this lab are intentionally somewhat open-ended. When details are u
 
 1. Define a new `CardSet` class template in its own `.h` file, with its template member definitions in a corresponding source file, and then revise your `Deck` type from the previous lab assignment so that instead of being an abstract base class, it becomes a class template parameterized by rank and suit types and derived by public inheritance from that new `CardSet` class template.
 
-   `CardSet` is a new abstraction for this lab. You should declare the new class template in its own header file and place its template member definitions in a corresponding source file.
-
    In `CardSet`:
 
    - add a protected member variable that is a `vector` of cards parameterized with the same rank and suit types
