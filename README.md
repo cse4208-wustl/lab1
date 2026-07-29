@@ -50,7 +50,7 @@ Some parts of this lab are intentionally somewhat open-ended. When details are u
    - change `print` so it is not virtual and takes a second parameter of type `size_t`
    - define `print` so it inserts cards into the provided `ostream`, separated by spaces, with a line break after the requested number of cards
 
-   In the template source file for `CardSet`, you may find an iterator declaration like this useful:
+   In the template source file for `CardSet`, you may find an iterator declaration like this useful for iterating over a vector of cards from beginning (`.begin()`) to end (`.end()`):
 
    ```cpp
    typename vector< Card<R, S> >::iterator
