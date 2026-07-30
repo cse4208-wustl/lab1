@@ -86,7 +86,7 @@ Some parts of this lab are intentionally somewhat open-ended. When details are u
    - pop that card from the source vector
    - return `*this`
 
-   Also add a public `is_empty` member function that returns `true` when the vector is empty and `false` otherwise.
+   Also add a public `is_empty` member function that returns `true` when the vector is empty and `false` otherwise. Users of `CardSet` can use `is_empty` to determine whether they can call the right shift operator on their `CardSet` object.
 
    Use `try` and `catch` appropriately so exceptions are handled promptly and do not propagate uncaught out of `main`.
 
