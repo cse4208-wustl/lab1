@@ -104,10 +104,10 @@ Some parts of this lab are intentionally somewhat open-ended. When details are u
 
    It should insert all player names into the vector of strings.
 
-   Since the original `argc` and `argv` also include the executable name and the game name, choose and document a consistent convention for whether:
+   The `argc` and `argv` parameters passed to the main function capture the entire command line with which the program will run. These arguments will include the executable name, the game name, and players' names. Choose and document a consistent convention for whether:
 
-   - the constructor skips the first two arguments itself, or
-   - earlier code adjusts `argc` and `argv` before calling the constructor
+   - the Game constructor skips the first two arguments itself, or
+   - earlier code adjusts `argc` and `argv` before calling the Game constructor
 
 1. Add a new header and source file declaring and defining a `PinochleGame` class derived publicly from `Game`.
 
