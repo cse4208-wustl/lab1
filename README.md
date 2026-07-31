@@ -76,7 +76,7 @@ Some parts of this lab are intentionally somewhat open-ended. When details are u
 
    If the compiler has trouble deducing iterator types, you may need to explicitly scope the vector member variable, for example `CardSet<R, S>::card_vec.begin()`.
 
-1. Add a public right shift operator `operator>>` to `CardSet` to move one card from the source CardSet to the destination CardSet. We will later use this operator to deal cards from the deck to a player's hand.
+1. Add a public right shift operator `operator>>` to `CardSet` to move one card from the source CardSet to the destination CardSet. We will later use this operator to to move cards from one CardSet to another.
 
    It should:
 
