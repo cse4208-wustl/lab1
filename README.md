@@ -88,11 +88,9 @@ Some parts of this lab are intentionally somewhat open-ended. When details are u
 
    Also add a public `is_empty` member function that returns `true` when the vector is empty and `false` otherwise. Users of `CardSet` can use `is_empty` to determine whether they can call the right shift operator on their `CardSet` object.
 
-   Use `try` and `catch` appropriately so exceptions are handled promptly and do not propagate uncaught out of `main`.
-
 1. In the header and source files for `Deck`, declare and define a public `collect` member function that takes a reference to a `CardSet` with the same rank and suit types and returns `void`.
 
-   That function should safely move all cards from the passed card set back into the deck.
+   That function should safely (without throwing any exceptions) move all cards from the passed card set back into the deck.
 
 1. Add a new header file declaring an abstract `Game` base class.
 
